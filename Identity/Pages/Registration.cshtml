@@ -1,0 +1,13 @@
+﻿@page
+@model Identity.Pages.RegistrationModel
+@{
+    ViewData["Title"] = "RegistrationModel";
+}
+
+<h1>RegistrationModel</h1>
+
+<form method="post">
+    <input type="email" asp-for="Email" placeholder="Email"/>
+    <input type="password" asp-for="Password" placeholder="Password"/>
+    <input type="submit" value="Зарегистрироваться" />
+</form>
